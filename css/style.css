@@ -30,6 +30,7 @@ body
 * {
 	margin: 0px;
 	padding: 0px;
+	
 }
 body {
 	background: #FFF;
@@ -37,6 +38,7 @@ body {
 	position: relative;
 	font-size: 14px;
 	font-family: 'Raleway', sans-serif;
+	direction:rtl;
 }
 /*=======================================================
       WRAPPER
@@ -175,6 +177,7 @@ h5.tittle {
 ========================================================*/
 .side-bar {
 	background: #fff;
+	float:right;
 }
 .side-bar li {
 }
@@ -184,7 +187,7 @@ h5.tittle {
 }
 .side-bar .personal-info li span {
 	width: 50%;
-	float: left;
+	float: right;
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size:14pt;
@@ -193,6 +196,7 @@ h5.tittle {
 	margin: 0px;
 	line-height: 30px;
 	font-size:14pt;
+	
 }
 .side-bar .personal-info li a {
 	color: #346abb;
@@ -219,7 +223,7 @@ h5.tittle {
 	color: #333;
 }
 .side-bar .attach li img {
-	float: left;
+	float: right;
 	margin-right: 10px;
 	line-height: 40px;
 	margin-top: 12px;
@@ -1319,11 +1323,11 @@ h5.tittle {
 }
 .about-me .personal-info li {
 	width: 50%;
-	float: left;
+	float: right;
 }
 .about-me .personal-info li span {
 	width: 50%;
-	float: left;
+	float: right;
 	text-transform: uppercase;
 	font-weight: bold;
 }
